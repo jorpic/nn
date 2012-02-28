@@ -1,0 +1,12 @@
+
+
+Кварц не нужен, используем internal clock source, он меньше кушает ([1] стр.9).
+Если резких перепадов температуры не будет, то точности должно хватить, чтобы гонять UART на 9600.
+
+
+
+
+[1] STM32L15x ultralow power features overview
+(http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/APPLICATION_NOTE/CD00270081.pdf).
+[2] STM32L151xx datasheet
+(http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00277537.pdf).
