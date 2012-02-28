@@ -1,3 +1,3 @@
-schematics nn.sch
+schematics 1-power.sch  2-uC.sch  3-gnss.sch  4-gsm.sch
 elements-dir footprints
 output-name board
