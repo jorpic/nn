@@ -79,7 +79,7 @@ numslots=0
 19		io	line	b		PB1
 20		io	line	b		PB2/BOOT1
 21		io	line	b		PB10
-22		io	line	b		PB21
+22		io	line	b		PB11
 23		pwr	line	b		V_SS1
 24		pwr	line	b		V_DD1
 
