@@ -168,23 +168,23 @@ N 53600 39900 53600 38200 4
 N 53200 39900 53200 38500 4
 N 52800 39900 52800 39400 4
 C 52200 50400 1 0 0 vcc-1.sym
-C 51700 40700 1 90 0 test-point.sym
+C 51700 40700 1 90 0 test-pad.sym
 {
 T 50800 41200 5 10 0 0 90 0 1
-device=test-point
+device=test-pad
 T 51250 40600 5 8 1 1 90 0 1
 refdes=GSM_DBG_TX
 T 49450 41200 5 10 0 0 90 0 1
-footprint=test-point
+footprint=test-pad
 }
-C 52100 40700 1 90 0 test-point.sym
+C 52100 40700 1 90 0 test-pad.sym
 {
 T 51200 41200 5 10 0 0 90 0 1
-device=test-point
+device=test-pad
 T 51650 40600 5 8 1 1 90 0 1
 refdes=GSM_DBG_RX
 T 49850 41200 5 10 0 0 90 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 51200 42000 51200 42200 4
 N 51600 42000 51600 42200 4

@@ -120,65 +120,65 @@ footprint=0603
 }
 N 41400 45900 41800 45900 4
 N 42700 45900 43100 45900 4
-C 41100 46300 1 0 0 test-point.sym
+C 41100 46300 1 0 0 test-pad.sym
 {
 T 41600 47200 5 10 0 0 0 0 1
-device=test-point
+device=test-pad
 T 42200 46850 5 8 1 1 0 0 1
 refdes=NRST
 T 41600 48550 5 10 0 0 0 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 42400 46800 42900 46800 4
 N 42900 46800 42900 45900 4
-C 47100 50700 1 270 0 test-point.sym
+C 47100 50700 1 270 0 test-pad.sym
 {
 T 48000 50200 5 10 0 0 270 0 1
-device=test-point
+device=test-pad
 T 47650 49800 5 8 1 1 90 0 1
 refdes=JTRST
 T 49350 50200 5 10 0 0 270 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 47600 49400 47600 49000 4
-C 47500 50700 1 270 0 test-point.sym
+C 47500 50700 1 270 0 test-pad.sym
 {
 T 48400 50200 5 10 0 0 270 0 1
-device=test-point
+device=test-pad
 T 48050 49800 5 8 1 1 90 0 1
 refdes=JTDO
 T 49750 50200 5 10 0 0 270 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 48000 49400 48000 49000 4
-C 47900 50700 1 270 0 test-point.sym
+C 47900 50700 1 270 0 test-pad.sym
 {
 T 48800 50200 5 10 0 0 270 0 1
-device=test-point
+device=test-pad
 T 48450 49800 5 8 1 1 90 0 1
 refdes=JTDI
 T 50150 50200 5 10 0 0 270 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 48400 49400 48400 49000 4
-C 48300 50700 1 270 0 test-point.sym
+C 48300 50700 1 270 0 test-pad.sym
 {
 T 49200 50200 5 10 0 0 270 0 1
-device=test-point
+device=test-pad
 T 48850 49800 5 8 1 1 90 0 1
 refdes=JTCK
 T 50550 50200 5 10 0 0 270 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 48800 49400 48800 49000 4
-C 51700 48000 1 180 0 test-point.sym
+C 51700 48000 1 180 0 test-pad.sym
 {
 T 51200 47100 5 10 0 0 180 0 1
-device=test-point
+device=test-pad
 T 50800 47450 5 8 1 1 0 0 1
 refdes=JTMS
 T 51200 45750 5 10 0 0 180 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 50400 47500 50100 47500 4
 N 50100 45900 50600 45900 4
@@ -242,24 +242,24 @@ T 51000 44000 5 10 0 1 180 0 1
 footprint=0805
 }
 C 52100 43900 1 0 1 3.3V-plus-1.sym
-C 48100 41500 1 90 0 test-point.sym
+C 48100 41500 1 90 0 test-pad.sym
 {
 T 47200 42000 5 10 0 0 90 0 1
-device=test-point
+device=test-pad
 T 47650 41800 5 8 1 1 90 0 1
 refdes=DBG_RX
 T 45850 42000 5 10 0 0 90 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 47600 42800 47600 43200 4
-C 48500 41500 1 90 0 test-point.sym
+C 48500 41500 1 90 0 test-pad.sym
 {
 T 47600 42000 5 10 0 0 90 0 1
-device=test-point
+device=test-pad
 T 48050 41800 5 8 1 1 90 0 1
 refdes=DBG_TX
 T 46250 42000 5 10 0 0 90 0 1
-footprint=test-point
+footprint=test-pad
 }
 N 48000 42800 48000 43200 4
 N 45200 43200 45200 42600 4
