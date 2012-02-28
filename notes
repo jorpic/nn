@@ -3,10 +3,19 @@
 Кварц не нужен, используем internal clock source, он меньше кушает ([1] стр.9).
 Если резких перепадов температуры не будет, то точности должно хватить, чтобы гонять UART на 9600.
 
+см. [3]
+1uF/10V между землёй и VLCD
+10uF на VDD
+1uF на VDDA?
+VREF+ к земле
+VREF- => VSSA
+
 
 
 
 [1] STM32L15x ultralow power features overview
-(http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/APPLICATION_NOTE/CD00270081.pdf).
+(http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/APPLICATION_NOTE/CD00270081.pdf)
 [2] STM32L151xx datasheet
-(http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00277537.pdf).
+(http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00277537.pdf)
+[3] Getting started with STM32L1xxx hardware development
+(http://www.st.com/internet/com/TECHNICAL_/TECHNICAL_LITERATURE/APPLICATION_NOTE/CD00273528.pdf)
